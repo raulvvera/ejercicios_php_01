@@ -1,0 +1,91 @@
+/* ---------------------------
+   Estilo general del documento
+---------------------------- */
+body {
+  background: url(../img/bgblanco.png) repeat;
+  text-align: justify;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 14px;
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+}
+
+/* ---------------------------
+   Cabecera principal
+---------------------------- */
+header {
+  background: url(../img/bgblue2.png) repeat;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 5px 15px;
+  color: rgba(255, 250, 250, 0.9);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+}
+
+/* Contenido textual del header */
+.header-content {
+  flex-grow: 1;
+}
+
+/* Imagen de perfil */
+.header-profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+/* Menú principal horizontal */
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgba(210, 105, 30, 0.5); /* chocolate semitransparente */
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a {
+  display: block;
+  padding: 14px 16px;
+  color: rgba(255, 250, 250, 0.9);
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+}
+
+.navbar a:hover {
+  background-color: rgba(128, 128, 128, 0.25);
+  color: rgba(255, 215, 0, 0.75);
+}
+
+/* ---------------------------
+   Contenido principal
+---------------------------- */
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px;
+}
+
+/* ---------------------------
+   Pie de página
+---------------------------- */
+footer {
+  background: url(../img/bgblue2.png) repeat;
+  text-align: center;
+  padding: 20px;
+  color: rgba(255, 250, 250, 0.9);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+}

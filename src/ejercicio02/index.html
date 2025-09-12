@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculadora de Factura</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/stylos.css" />
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-content">
+        <h3>Ejercicios de PHP – Relación I</h3>
+        <h4>Certificaciones de Profesionalidad</h4>
+        <h5>Plantilla</h5>
+      </div>
+      <div class="header-profile">
+        <img src="../img/perfil.jpg" alt="Foto de perfil" />
+      </div>
+    </header>
+    <br />
+    <h3>
+      2. Escribe un programa que calcule el total de una factura a partir de la
+      base imponible. Se considera un IVA del 21%.
+    </h3>
+    <br />
+    <div class="card">
+      <h2>Calculadora de Factura con IVA (21%)</h2>
+
+      <form action="calculadora.php" method="post">
+        <label for="base">Base Imponible (€):</label>
+        <input type="number" step="1000" name="base" id="base" required />
+        <button type="submit">Calcular</button>
+      </form>
+
+      <br />
+      <div class="botones">
+        <a href="../index.html"><button>Volver</button></a>
+      </div>
+    </div>
+    <footer>
+      <h2>Diego Raúl Vázquez Vera</h2>
+    </footer>
+  </body>
+</html>
