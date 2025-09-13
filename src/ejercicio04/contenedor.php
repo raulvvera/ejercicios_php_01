@@ -17,7 +17,7 @@
         ?>
   <h1><?= $hora ?></h1>
         <div class="botones">
-            <a href="index.html"><button>Volver</button></a>
+            <a href="index.php"><button>Volver</button></a>
         </div>
     </div>
 </body>
