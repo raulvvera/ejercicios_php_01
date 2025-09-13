@@ -8,11 +8,14 @@
 <body>
     <div class="contenedor">
         <?php
-    $hora = $_POST["hora"];
+        
+            $hora = $_POST["hora"];
     
-    $clacular = $hora * 166.386;
-  ?>
-  <h1><?= $calcular ?></h1>
+            if ($hora >= 6 && $hora <=12){echo "¡Buenos días!";}
+            elseif ($hora >= 13 && $hora <= 20){echo "¡Buenas tardes!";}
+            else (){echo "¡Buenas noches!";}
+        ?>
+  <h1><?= $hora ?></h1>
         <div class="botones">
             <a href="index.html"><button>Volver</button></a>
         </div>
