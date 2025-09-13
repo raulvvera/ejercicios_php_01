@@ -29,7 +29,7 @@
   <br>
   <div class="card">
 
-    <div class="contenedor">
+    
 
       <h1>Programa saludo por horas</h1>
       <p>Por favor, introduzca una hora del día (0 - 23):</p>
@@ -40,7 +40,7 @@
       </form>
 
 
-    </div>
+    
 
 
   </div>
