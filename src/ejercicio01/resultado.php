@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="contenedor">
+    <div class="card">
         <?php
     $euros = $_POST["euros"];
     

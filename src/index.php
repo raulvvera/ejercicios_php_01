@@ -28,25 +28,25 @@
       <li><a href="./ejercicio01/">Ejercicio01</a></li>
       <li><a href="./ejercicio02/">Ejercicio02</a></li>
       <li><a href="./ejercicio03/">Ejercicio03</a></li>
-      <li><a href="./ejercicio04/index.php">Ejercicio04</a></li>
-      <li><a href="./ejercicio01/index.php">Ejercicio05</a></li>
-      <li><a href="./ejercicio02/">Ejercicio06</a></li>
-      <li><a href="./ejercicio01/index.php">Ejercicio07</a></li>
-      <li><a href="./ejercicio02/">Ejercicio08</a></li>
-      <li><a href="./ejercicio01/index.php">Ejercicio09</a></li>
-      <li><a href="./ejercicio02/">Ejercicio10</a></li>
-      <li><a href="./ejercicio01/index.php">Ejercicio11</a></li>
-      <li><a href="./ejercicio02/">Ejercicio12</a></li>
-      <li><a href="./ejercicio01/index.php">Ejercicio13</a></li>
-      <li><a href="./ejercicio02/">Ejercicio14</a></li>
-      <li><a href="./ejercicio02/">Ejercicio15</a></li>
+      <li><a href="./ejercicio04/">Ejercicio04</a></li>
+      <li><a href="./ejercicio05/">Ejercicio05</a></li>
+      <li><a href="./ejercicio06/">Ejercicio06</a></li>
+      <li><a href="./ejercicio07/">Ejercicio07</a></li>
+      <li><a href="./ejercicio08/">Ejercicio08</a></li>
+      <li><a href="./ejercicio09/">Ejercicio09</a></li>
+      <li><a href="./ejercicio10/">Ejercicio10</a></li>
+      <li><a href="./ejercicio11/">Ejercicio11</a></li>
+      <li><a href="./ejercicio12/">Ejercicio12</a></li>
+      <li><a href="./ejercicio13/">Ejercicio13</a></li>
+      <li><a href="./ejercicio14/">Ejercicio14</a></li>
+      <li><a href="./ejercicio15/">Ejercicio15</a></li>
       
     </ul>
   </nav>
 
   <!-- Contenido principal de la página -->
   <main>
-    <section class="intro">
+    <section class="card">
       <h2>Bienvenido</h2>
       <p>Selecciona un ejercicio desde el menú superior para empezar.</p>
     </section>
