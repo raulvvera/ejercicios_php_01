@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>salario total</title>
+    <title>Ordenar numeros</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
@@ -19,24 +19,21 @@
             <img src="../img/perfil.jpg" alt="Foto de perfil" />
         </div>
     </header>
+    <br>
     <main>
         <div class="card">
             <?php
-    $horas = $_POST["horas"] ?? 0;
-    $normales = min($horas, 40);
-    $extras = max(0, $horas - 40);
-    
-    $salario = ($normales * 12) + ($extras * 16); 
+    $number = $_POST["number"];
+
 ?>
-            <h1>Resultado del calculo</h1>
-            <p>El sueldo semanal que le corresponde es de
-            <h1><?= $horas . " " . "horas a total de ". $salario . "€"?></h1>
-            </p>
+
         </div>
     </main>
+    <br>
     <div class="botones">
         <a href="index.php"><button>Volver</button></a>
     </div>
+
     <footer>
         <h2>Diego Raúl Vázquez Vera</h2>
     </footer>

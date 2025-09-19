@@ -24,17 +24,22 @@
 segundos que faltan para llegar a la medianoche.
   </h3>
   <br />
+  <main>
   <div class="card">
     <h1>Cuantos Segundos</h1>
     <h2>calcule los segundos que faltan para llegar a la medianoche</h2>
     <form action="segundos.php" method="GET">
         Hora: <input type="number" name="hora" min="1" max="12" required>
         Minuto: <input type="number" name="minuto" min="0" max="59" required>
-        <button type="submit">Ver segundos</button>
+        <input type="submit" value="Ver segundos">
     </form>
   </div>
+  </main>
   <div class="botones">
     <a href="../"><button>Volver</button></a>
   </div>
+  <footer>
+  <h2>Diego Raúl Vázquez Vera</h2>
+</footer>
 </body>
 </html>

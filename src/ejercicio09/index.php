@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horoscopo</title>
+    <title>Tabla de multiplicar</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 </head>
@@ -20,18 +20,16 @@
   </header>
   <br />
   <h3>
-    6. Escribe un programa que nos diga el horóscopo a partir del día y el mes de nacimiento.
-
+    9.	Muestra la tabla de multiplicar de un número introducido por teclado. El resultado se debe mostrar en una tabla (etiqueta "table" de HTML).
   </h3>
   <br />
   <main>
   <div class="card">
-    <h1>Horoscopo según tu fecha</h1>
-    <h2>Descubre tu horóscopo</h2>
-    <form action="horoscopo.php" method="post">
-        Día: <input type="number" name="dia" min="1" max="31" required>
-        Mes: <input type="number" name="mes" min="1" max="12" required>
-        <input type="submit" value="Ver horóscopo">
+    <h1>Tabla de multiplicar</h1>
+    <h2>Este programa te crea la tabla de multiplicar</h2>
+    <form action="tabla.php" method="post">
+        <label>Tabla del: <input type="number" name="number" step="0" required></label><br><br>
+        <input type="submit" value="Calcular">
     </form>
   </div>
   </main>

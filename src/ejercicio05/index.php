@@ -27,27 +27,25 @@
 
   </h3>
   <br>
+  <main>
   <div class="card">
-
-
 
     <h1>Programa calculo salario</h1>
     <p>Por favor, introduzca el número de horas trabajadas durante la semana:</p>
 
     <form action="salario.php" method="post">
-      <input type="number" name="hora" />
+      <input type="number" name="horas" min="0" require />
       <input type="submit" value="Aceptar" />
     </form>
 
-
-
-
-
   </div>
+  </main>
   <div class="botones">
     <a href="../"><button>Volver</button></a>
   </div>
-
+<footer>
+  <h2>Diego Raúl Vázquez Vera</h2>
+</footer>
 </body>
 
 </html>

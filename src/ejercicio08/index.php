@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horoscopo</title>
+    <title>Ordenar numeros</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 </head>
@@ -20,18 +20,18 @@
   </header>
   <br />
   <h3>
-    6. Escribe un programa que nos diga el horóscopo a partir del día y el mes de nacimiento.
-
+    8.	Escribe un programa que ordene, de menor a mayor, tres números enteros introducidos por teclado.
   </h3>
   <br />
   <main>
   <div class="card">
-    <h1>Horoscopo según tu fecha</h1>
-    <h2>Descubre tu horóscopo</h2>
-    <form action="horoscopo.php" method="post">
-        Día: <input type="number" name="dia" min="1" max="31" required>
-        Mes: <input type="number" name="mes" min="1" max="12" required>
-        <input type="submit" value="Ver horóscopo">
+    <h1>Ordenar tres numeros </h1>
+    <h2>Este programa ordena de menor a mayor los numeros enteros introducidos</h2>
+    <form action="ordena.php" method="post">
+        <label>Número 1: <input type="number" name="num1" required></label><br><br>
+        <label>Número 2: <input type="number" name="num2" required></label><br><br>
+        <label>Número 3: <input type="number" name="num3" required></label><br><br>
+        <input type="submit" value="Ordenar">
     </form>
   </div>
   </main>

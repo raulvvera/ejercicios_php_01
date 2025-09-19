@@ -5,11 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horoscopo</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
-<div class="card">
-<?php
+    <header>
+        <div class="header-content">
+            <h3>Ejercicios de PHP – Relación I</h3>
+            <h4>Certificaciones de Profesionalidad</h4>
+            <h5>Plantilla</h5>
+        </div>
+        <div class="header-profile">
+            <img src="../img/perfil.jpg" alt="Foto de perfil" />
+        </div>
+    </header>
+    <main>
+        <div class="card">
+            <?php
 
         function horoscopo($dia, $mes) {
     if (($dia >= 21 && $mes == 3) || ($dia <= 19 && $mes == 4)) {
@@ -44,13 +56,20 @@
         $dia = (int) $_POST["dia"];
         $mes = (int) $_POST["mes"];
 echo "Tu fecha de nacimiento es $dia/$mes<br>";
-echo "Tu horóscopo es: " . horoscopo($dia, $mes);
+echo "Tu horóscopo es: ";
+
  }
     ?>
-  </div> 
+    <h1><?= horoscopo($dia, $mes) ?></h1>
+    </main>
+    </div>
     <div class="botones">
         <a href="index.php"><button>Volver</button></a>
     </div>
+    <br>
+    <footer>
+        <h2>Diego Raúl Vázquez Vera</h2>
+    </footer>
 </body>
 
 </html>

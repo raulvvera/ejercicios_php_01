@@ -2,51 +2,51 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Programa saludo por hora</title>
-  <link rel="stylesheet" href="../css/styles.css">
-  
-  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa saludo por hora</title>
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-  <header>
-    <div class="header-content">
-      <h3>Ejercicios de PHP – Relación I</h3>
-      <h4>Certificaciones de Profesionalidad</h4>
-      <h5>Plantilla</h5>
+    <header>
+        <div class="header-content">
+            <h3>Ejercicios de PHP – Relación I</h3>
+            <h4>Certificaciones de Profesionalidad</h4>
+            <h5>Plantilla</h5>
+        </div>
+        <div class="header-profile">
+            <img src="../img/perfil.jpg" alt="Foto de perfil" />
+        </div>
+    </header>
+    <h3>4. Realiza un programa que pida una hora por teclado y que muestre luego buenos días, buenas tardes o buenas
+        noches
+        según la hora. Se utilizarán los tramos de 6 a 12, de 13 a 20 y de 21 a 5. respectivamente. Sólo se tienen en
+        cuenta
+        las horas, los minutos no se deben introducir por teclado.
+    </h3>
+    <br>
+    <main>
+    <div class="card">
+
+        <h1>Programa saludo por horas</h1>
+        <p>Por favor, introduzca una hora del día (0 - 23):</p>
+
+        <form action="contenedor.php" method="post">
+            <input type="number" name="hora" />
+            <input type="submit" />
+        </form>
+
     </div>
-    <div class="header-profile">
-      <img src="../img/perfil.jpg" alt="Foto de perfil" />
+    </main>
+    <div class="botones">
+        <a href="../"><button>Volver</button></a>
     </div>
-  </header>
-  <h3>4. Realiza un programa que pida una hora por teclado y que muestre luego buenos días, buenas tardes o buenas
-    noches
-    según la hora. Se utilizarán los tramos de 6 a 12, de 13 a 20 y de 21 a 5. respectivamente. Sólo se tienen en cuenta
-    las horas, los minutos no se deben introducir por teclado.
-  </h3>
-  <br>
-  <div class="card">
-
-    
-
-      <h1>Programa saludo por horas</h1>
-      <p>Por favor, introduzca una hora del día (0 - 23):</p>
-
-      <form action="contenedor.php" method="post">
-        <input type="number" name="hora" />
-        <input type="submit" />
-      </form>
-
-
-    
-
-
-  </div>
-  <div class="botones">
-    <a href="../"><button>Volver</button></a>
-  </div>
+    <footer>
+        <h2>Diego Raúl Vázquez Vera</h2>
+    </footer>
 </body>
 
 </html>
