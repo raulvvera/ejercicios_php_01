@@ -23,17 +23,22 @@
     <br>
     <main>
         <div class="card">
-            <?php
-            if (isset($_POST['numero'])) {
-                $numero = intval($_POST['numero']);
-                echo "<h2>Tabla del $numero</h2>";
-                echo "<table border='1'>";
-                for ($i = 1; $i <= 10; $i++) {
-                    echo "<tr><td>$numero x $i</td><td>" . ($numero * $i) . "</td></tr>";
-                }
-                echo "</table>";
-            }
 
+            <?php
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $n = intval($_POST["numero"]);
+
+        function factorial($n) {
+            if ($n === 0) return 1; // Caso base
+            $resultado = 1;
+            for ($i = 1; $i <= $n; $i++) {
+                $resultado *= $i;
+            }
+            return $resultado;
+        }
+
+        echo "<p>El factorial de <strong>$n</strong> es: <strong>" . factorial($n) . "</strong></p>";
+    }
             ?>
 
         </div>
