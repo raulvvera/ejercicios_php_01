@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabla de multiplicar</title>
+    <title>Calculo media</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 </head>
@@ -20,15 +20,16 @@
   </header>
   <br />
   <h3>
-    9.	Muestra la tabla de multiplicar de un número introducido por teclado. El resultado se debe mostrar en una tabla (etiqueta "table" de HTML).
+    11. Escribe un programa que calcule la media de un conjunto de números positivos introducidos por teclado. A priori, el programa no sabe cuántos números se introducirán. El usuario indicará que ha terminado de introducir los datos cuando meta un número negativo. Ese último número que indica el final no se computa en la media.
   </h3>
   <br />
   <main>
   <div class="card">
-    <h1>Tabla de multiplicar</h1>
-    <h2>Este programa te crea la tabla de multiplicar</h2>
-    <form action="tabla.php" method="post">
-        <label>Tabla del: <input type="number" name="numero" step="0" required></label><br><br>
+    <h1>Cálculo de la media</h1>
+    <h2>Este programa calcula la media de los números positivos introducidos.
+Vaya introduciendo números (puede parar introduciendo un número negativo).</h2>
+    <form action="numeros.php" method="post">
+        <label>Por favor, introduzca números separados por comas: <input type="text" name="numeros" step="0" autofocus></label><br><br>
         <input type="submit" value="Calcular">
     </form>
   </div>

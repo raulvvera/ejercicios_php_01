@@ -23,16 +23,25 @@
     <main>
         <div class="card">
             <?php
-            if (isset($_POST['numero'])) {
-                $numero = intval($_POST['numero']);
-                echo "<h2>Tabla del $numero</h2>";
-                echo "<table border='1'>";
-                for ($i = 1; $i <= 10; $i++) {
-                    echo "<tr><td>$numero x $i</td><td>" . ($numero * $i) . "</td></tr>";
+            if (isset($_POST['n'])) {
+                $n = intval($_POST['n']);
+                if ($n <= 0) {
+                    echo "Por favor introduce un número mayor que cero.";
+                } else {
+                    $a = 0;
+                    $b = 1;
+                    echo "Los primeros $n términos de Fibonacci:<br>";
+                    for ($i = 1; $i <= $n; $i++) {
+                        echo $a;
+                        if ($i < $n) {
+                            echo ", ";
+                        }
+                        $siguiente = $a + $b;
+                        $a = $b;
+                        $b = $siguiente;
+                    }
                 }
-                echo "</table>";
             }
-
             ?>
 
         </div>
