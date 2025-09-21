@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.tablero {
+  display: grid;
+  grid-template-columns: 30px repeat(8, 60px) 30px;
+}
+
+.fila,
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-weight: bold;
+}
+
+.casilla {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.blanca {
+  background: #fff;
+}
+
+.negra {
+  background: black;
+}
+
+.alfil {
+  background: blue !important;
+  color: white;
+}
+
+.movimiento {
+  background: green !important;
+}

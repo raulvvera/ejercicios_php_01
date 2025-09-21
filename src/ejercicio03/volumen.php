@@ -33,7 +33,7 @@
         <div class="botones">
             <a href="./"><button>Volver</button></a>
         </div>
-        <br>
+      
     <footer>
         <h2>Diego Raúl Vázquez Vera</h2>
     </footer>

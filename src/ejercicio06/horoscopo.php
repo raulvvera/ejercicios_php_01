@@ -67,7 +67,7 @@ echo "Tu horóscopo es: ";
     <div class="botones">
         <a href="index.php"><button>Volver</button></a>
     </div>
-    <br>
+
     <footer>
         <h2>Diego Raúl Vázquez Vera</h2>
     </footer>

@@ -22,20 +22,19 @@
     </header>
     <br>
     <main>
-    <div class="card">
-        <?php
-    $euros = $_POST["euros"];
-    
-    $pesetas = $euros * 166.386;
-  ?>
-        <h1><?= $pesetas . " " . "Pesetas"?></h1>
-    </div>
-    </main>
-        <div class="botones">
-            <a href="index.html"><button>Volver</button></a>
+        <div class="card">
+            <?php
+            $euros = $_POST["euros"];
+
+            $pesetas = $euros * 166.386;
+            ?>
+            <h1><?= $pesetas . " " . "Pesetas" ?></h1>
         </div>
-    
-    <br>
+    </main>
+    <div class="botones">
+        <a href="index.html"><button>Volver</button></a>
+    </div>
+
     <footer>
         <h2>Diego Raúl Vázquez Vera</h2>
     </footer>

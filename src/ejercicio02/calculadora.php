@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
 </head>
+
 <body>
     <header>
         <div class="header-content">
@@ -20,21 +22,22 @@
     </header>
     <br>
     <main>
-    <div class="card">
-        <?php
-    $base = $_POST["base"];
-    
-    $iva = $base * 1.21;
-  ?>
-  <h1><?= "Factura" . " ". $iva . " " . "€" ?></h1>
-  </div>
-  </main>
-        <div class="botones">
-            <a href="index.html"><button>Volver</button></a>
+        <div class="card">
+            <?php
+            $base = $_POST["base"];
+
+            $iva = $base * 1.21;
+            ?>
+            <h1><?= "Factura" . " " . $iva . " " . "€" ?></h1>
         </div>
-    
+    </main>
+    <div class="botones">
+        <a href="index.html"><button>Volver</button></a>
+    </div>
+
     <footer>
         <h2>Diego Raúl Vázquez Vera</h2>
     </footer>
 </body>
+
 </html>
